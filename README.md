@@ -10,6 +10,14 @@ The insights support RetailMax’s commercial strategy by improving pricing deci
 
 The dataset used in this project was provided directly by RetailMax for internal analytical purposes. It contains real operational records across sales, customers, products, stores, and discount activity, ensuring that all insights reflect actual business performance.
 
+## Data Quality Validation
+
+- Missing values were reviewed and handled appropriately
+- Invalid or unmatched IDs were checked and corrected
+- Numerical fields (revenue, quantity, discounts) were validated for realistic ranges
+- Date fields were confirmed to support accurate trend analysis
+- Cross table consistency checks were performed across sales, product, customer, and store data
+
 ## Data Model
 
 A structured analytical model was created to support consistent reporting across all dashboards. 
